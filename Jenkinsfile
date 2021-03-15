@@ -1,8 +1,7 @@
 #!groovy
 
 pipeline {
-  agent {
-  }
+  agent { label 'java8' }
 
   stages {
     stage('Build') {
