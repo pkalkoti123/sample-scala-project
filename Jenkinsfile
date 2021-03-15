@@ -1,7 +1,5 @@
 #!groovy
 
-library 'PS-jenkins-shared-lib'
-
 pipeline {
   agent {
   }
