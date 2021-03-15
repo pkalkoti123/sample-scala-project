@@ -1,6 +1,10 @@
 #!groovy
 
+library 'PS-jenkins-shared-lib'
+
 pipeline {
+  agent {
+  }
 
   stages {
     stage('Build') {
